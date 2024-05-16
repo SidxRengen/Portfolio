@@ -130,7 +130,7 @@ function App() {
               and technologies, with a proven track record of delivering
               high-quality software products. Strong problem-solving skills and
               a commitment to staying updated with the latest industry trends
-              and best practices
+              and best practices.
             </p>
             <div className="icons">
               <a
