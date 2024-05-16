@@ -659,7 +659,7 @@ textarea {
     align-items: center;
     flex-direction: column-reverse;
     width: 100%;
-    min-height: 120vh;
+    min-height: 100vh;
   }
   .home-left,
   .home-right {
