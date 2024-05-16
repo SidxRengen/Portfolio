@@ -323,7 +323,7 @@ function App() {
               <FaTwitter fontSize={25} />
             </a>
           </div>
-          <h4>@Siddharth Gautam | All Rights Reserved 2024</h4>
+          <p>@Siddharth Gautam | All Rights Reserved 2024</p>
         </section>
       </div>
     </>
