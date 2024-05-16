@@ -72,7 +72,7 @@ li a:hover {
   gap: 40px;
 }
 .nav ul li {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 0.5px;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
@@ -106,13 +106,14 @@ li a:hover {
 }
 .home-left h1 {
   color: #fff;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .home-left h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .home-left p {
   width: 80%;
+  font-size: 0.8rem;
 }
 .home-right {
   display: flex;
@@ -142,8 +143,8 @@ li a:hover {
   justify-content: space-between;
 }
 .icons .icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   cursor: pointer;
@@ -161,7 +162,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
+  width: 120px;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
   color: #b026ff;
@@ -350,7 +351,7 @@ a {
 
 .project-info p {
   min-height: 180px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-top: 5px;
   text-align: justify;
   margin-bottom: 15px;
@@ -455,6 +456,7 @@ a {
 }
 .box1 p {
   margin-top: 10px;
+  font-size: 0.8rem;
   text-align: left;
 }
 .exp-center {
@@ -540,9 +542,9 @@ a {
   align-items: center;
   gap: 5vh;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   display: flex;
-  margin: 5%;
+  margin: 10% 5% 0;
   flex-direction: column;
   text-align: center;
 }
@@ -814,7 +816,7 @@ textarea {
   textarea {
     font-size: 1rem;
   }
-  .footer{
+  .footer {
     padding-bottom: 4vh;
   }
 }
