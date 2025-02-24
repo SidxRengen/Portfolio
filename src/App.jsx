@@ -239,20 +239,21 @@ function App() {
                   coordinating meetings with clients to meticulously capture
                   their design preferences and requirements, fostering
                   transparent communication channels throughout the development
-                  lifecycle. To enhance user engagement
-                  and security, I integrated a robust payment gateway through
-                  Razorpay, providing seamless transactions for ticket purchases
-                  and merchandise acquisition
+                  lifecycle. To enhance user engagement and security, I
+                  integrated a robust payment gateway through Razorpay,
+                  providing seamless transactions for ticket purchases and
+                  merchandise acquisition
                 </p>
               </div>
               <div className="box1" style={{ marginTop: "0px" }}>
-                <h3>Full-Stack Developer Internship - Ignite, Online</h3>
+                <h3>Software Developer Intern - VAMOS MOBILITY, Hybrid</h3>
                 <p>
-                  The internship program operated entirely within a virtual
-                  environment, enabling participation from anywhere with an
-                  internet connection. Tasks included the development of a
-                  personal portfolio website, creation of an attractive landing
-                  page, and the establishment of a job board platform.
+                  Developed E-Rick Ride Booking App using the MERN stack for
+                  5,000+ students at IIT Roorkee, integrating Web-Sockets for
+                  live driver location updates, Engineered a Ride Allocation
+                  System leveraging Graph-Based Data Structures, achieving ride
+                  confirmation within 2 minutes and Implemented PhonePe Payment
+                  Gateway for safe and reliable transactions.
                 </p>
               </div>
             </div>
@@ -265,7 +266,7 @@ function App() {
           </div>
           <a
             className="cv-btn"
-            href="https://drive.google.com/file/d/1D1mMN84Vmc-RkmKYZzwctFzLHDuXBy21/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qWd2hyHpPri5PKiXo-YWAduJFKeA_NxI/view?usp=sharing"
           >
             Download
           </a>
