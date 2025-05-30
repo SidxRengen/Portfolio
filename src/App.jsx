@@ -13,13 +13,19 @@ import {
 } from "react-icons/fa";
 import "./App.css";
 import Card from "./Components/Card.jsx";
-import { SiCplusplus, SiExpress, SiMacos, SiMongodb } from "react-icons/si";
+import {
+  SiCplusplus,
+  SiExpo,
+  SiExpress,
+  SiMacos,
+  SiMongodb,
+} from "react-icons/si";
 import { VscCode, VscCodeOss, VscVscode } from "react-icons/vsc";
 import { RiNextjsLine } from "react-icons/ri";
-import sid from "./assets/sid.jpg";
+import sid from "./assets/sid.png";
 import prompto from "./assets/prompto.png";
-import techshilla from "./assets/techshilla.png";
-import thomso from "./assets/thomso.png";
+import md from "./assets/md.png";
+import vamos from "./assets/vamos.png";
 import cv from "./assets/cv.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
@@ -28,11 +34,11 @@ function App() {
   const [menu, setmenu] = useState(false);
   const projects = [
     {
-      title: "Thomso",
+      title: "VAMOS Mobility",
       description:
-        "Collaborated closely with a multidisciplinary team consisting of five developers, two designers, and a product manager to delineate project objectives, strategize sprint planning, and synchronize design and functionality elements. Key responsibilities involved the development and upkeep of critical React components, notably the event sections, user profiles, and payment box, to guarantee a cohesive and adaptable user interface across the platform. Seamlessly integrated with RESTful APIs to retrieve Events data, user details, and facilitate user interactions such as event addition and account management, underscoring proficiency in API integration and frontend development.",
-      image: thomso,
-      link: "https://thomso.in/",
+        "During my internship at VAMOS Mobility (May–July 2024), I developed a real-time E-Rickshaw Ride Booking Application using the MERN stack, designed to serve over 5,000 students at IIT Roorkee. The platform included two separate apps—one for users and one for drivers—each with a dedicated interface and features. I integrated OpenStreetMap with Leaflet.js to enable dynamic, real-time map rendering, and used WebSockets for live driver location tracking. I also built a smart Ride Allocation System leveraging Graph-Based Data Structures, ensuring that rides were automatically assigned within 2 minutes. Additionally, I implemented the PhonePe Payment Gateway to support secure and seamless digital transactions. This experience strengthened my skills in full-stack development, real-time systems, and scalable application design.",
+      image: vamos,
+      link: "https://www.vamosiitr.com",
     },
     {
       title: "Prompto",
@@ -42,24 +48,24 @@ function App() {
       link: "https://share-prompt-peach.vercel.app",
     },
     {
-      title: "Techshilla",
+      title: "Mountdiggers",
       description:
-        "In the pursuit of optimizing healthcare delivery, I spearheaded the development of a system aimed at streamlining medicine inventory management. Central to this endeavor was the implementation of JWT tokens to efficiently manage user sessions, with dedicated backend endpoints seamlessly facilitating login and signup functionalities. Additionally, I architected robust backend APIs tailored for CRUD (Create, Read, Update, Delete) operations on store entities. These APIs enabled effortless management of medicine inventory, encompassing essential tasks such as creation, retrieval, and updating of inventory data. Through meticulous design and execution, the system significantly enhanced efficiency and accuracy in healthcare inventory management, ultimately contributing to improved patient care and operational effectiveness.",
-      image: techshilla,
-      link: "",
+        "I have collaborated for the development of a dynamic and visually engaging Mountain Trekking Website using the MERN stack, built with professional, scalable code architecture. The platform offers a smooth and modern user experience with animated trek cards, intuitive navigation, and a beautiful design that highlights India’s top trekking destinations. Users can explore both featured treks and a full trek listing, with smart filters to choose between batches, months, and sharing options. Each trek includes detailed information, user reviews, and itinerary breakdowns to help users make informed decisions. I also integrated the Razorpay payment gateway for secure and seamless bookings. This project showcases my skills in building real-world applications with a focus on both performance and user-centric design.",
+      image: md,
+      link: "https://www.mountdiggers.com",
     },
   ];
   const skills = [
     <FaHtml5 fontSize={50} />,
     <FaCss3 fontSize={50} />,
     <FaJs fontSize={50} />,
+    <SiCplusplus fontSize={50} />,
     <FaReact fontSize={50} />,
     <RiNextjsLine fontSize={50} />,
     <FaNode fontSize={50} />,
     <SiExpress fontSize={50} />,
     <SiMongodb fontSize={50} />,
-    <SiCplusplus fontSize={50} />,
-    <FaPython fontSize={50} />,
+    <SiExpo fontSize={50} />,
   ];
   const tools = [
     <SiMacos fontSize={50} />,
@@ -123,32 +129,43 @@ function App() {
               I'm a <span></span>
             </h3>
             <p>
-              Welcome to my Portfolio! I'm Siddharth Gautam, a College student
-              from one of the prestigious colleges of India, IIT-ROORKEE. I
-              aspire to become a Software Developer Engineer in the Future to
-              create Dynamic and Proficient in multiple programming languages
-              and technologies, with a proven track record of delivering
-              high-quality software products. Strong problem-solving skills and
-              a commitment to staying updated with the latest industry trends
-              and best practices.
+              Hi, I’m Siddharth Gautam, a final-year B.Tech Graduate from IIT
+              Roorkee and a passionate Full Stack Developer. I love building
+              user-friendly, high-performance web applications that solve
+              real-world problems. With strong knowledge of React.js, Node.js,
+              Express.js, MongoDB, and experience in React Native, I have
+              developed several full-stack projects including ride-booking
+              platforms, real-time dashboards, and delivery systems. My
+              internships at IoT83 and VAMOS Mobility allowed me to work on
+              scalable systems involving live tracking, authentication, and
+              secure payments. Always curious and driven by growth, I enjoy
+              learning new technologies, working in collaborative teams, and
+              creating clean, efficient code that delivers real impact.
             </p>
             <div className="icons">
               <a
+                target="_blank"
                 href="https://www.linkedin.com/in/siddharth-gautam-aa4ba61a0/"
                 className="icon"
               >
                 <FaLinkedinIn fontSize={25} />
               </a>
-              <a href="https://github.com/SidxRengen" className="icon">
+              <a
+                target="_blank"
+                href="https://github.com/SidxRengen"
+                className="icon"
+              >
                 <FaGithub fontSize={25} />
               </a>
               <a
+                target="_blank"
                 href="https://www.instagram.com/_si_dharth_02?igsh=cjY4cWh6OTgwODlh"
                 className="icon"
               >
                 <FaInstagram fontSize={25} />
               </a>
               <a
+                target="_blank"
                 href="https://x.com/siddharth646406?t=bhxetLMMm7QTg2QLp1db5g&s=08"
                 className="icon"
               >
@@ -266,7 +283,8 @@ function App() {
           </div>
           <a
             className="cv-btn"
-            href="https://drive.google.com/file/d/1qWd2hyHpPri5PKiXo-YWAduJFKeA_NxI/view?usp=sharing"
+            target="_blank"
+            href="https://drive.google.com/file/d/1GAtnetv6fo-wa3CAex8pE5XXv9MKRjk-/view?usp=sharing"
           >
             Download
           </a>
@@ -301,15 +319,21 @@ function App() {
         <section className="footer">
           <div className="icons" style={{ width: "300px" }}>
             <a
+              target="_blank"
               href="https://www.linkedin.com/in/siddharth-gautam-aa4ba61a0/"
               className="icon"
             >
               <FaLinkedinIn fontSize={25} />
             </a>
-            <a href="https://github.com/SidxRengen" className="icon">
+            <a
+              target="_blank"
+              href="https://github.com/SidxRengen"
+              className="icon"
+            >
               <FaGithub fontSize={25} />
             </a>
             <a
+              target="_blank"
               href="https://www.instagram.com/_si_dharth_02?igsh=cjY4cWh6OTgwODlh"
               className="icon"
             >
@@ -317,6 +341,7 @@ function App() {
               <FaInstagram fontSize={25} />
             </a>
             <a
+              target="_blank"
               href="https://x.com/siddharth646406?t=bhxetLMMm7QTg2QLp1db5g&s=08"
               className="icon"
             >
